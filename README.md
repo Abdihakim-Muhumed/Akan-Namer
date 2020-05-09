@@ -1,15 +1,15 @@
-# BirthDay
+# Akan Naming
 # Author : Abdihakim Muhumed
 The Project is meant to create a web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name. 
 # Setup Instructions
 Click this link to open the application : 
-Enter your details in the form and submit to find your birthday.
+Enter your details in the form and submit to find your name.
 # Technologies
 1.HTML
 2.CSS
 3.JavaScript
 # Contact me
-Email:abdihakim.0017@gmail.com
+Email: abdihakim.0017@gmail.com
 Phone: +254759430440
 # Copyright (c) 2020 Abdihakim-Muhumed
 

@@ -1,5 +1,7 @@
-header{
-    background-color: darkcyan;
+.header{
+
+    background-color: rgb(202, 241, 241);
+    background-size: initial;
 }
 h1{
     color: black;
@@ -8,4 +10,11 @@ h1{
 }
 h2{
     color: dimgrey;
+    font-style: italic ;
+}
+.disc{
+    color: mediumpurple;
+}
+.form{
+    background-color: darkcyan;
 }

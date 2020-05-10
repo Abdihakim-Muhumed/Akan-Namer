@@ -13,8 +13,9 @@ h2{
     font-style: italic ;
 }
 .disc{
-    color: mediumpurple;
+    color: rgb(104, 98, 117);
 }
 .form{
     background-color: darkcyan;
+    color: rgb(44, 36, 36);
 }

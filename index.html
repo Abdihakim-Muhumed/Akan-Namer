@@ -2,6 +2,7 @@
     <head>
         <title>Akan Naming</title>
         <link rel="stylesheet" href="css/styles.css" type="text/css">
+        <script src="js/scripts.js"></script>
     </head>
     <body>
         <div class="header">
@@ -14,15 +15,13 @@
         <div class="form">
             <form action="">
                 <p>Date of birth: </p>
-                <p>
-                    <input type="number" name="day" value="Day">Day<br> 
-                    <input type="number" name="month" value="Month">Month<br>
-                    <input type="number" name="year" value="year">Year<br>
-                </p>
+                    <input type="number" placeholder="Day" id="day"> 
+                    <input type="number" placeholder="Month" id="month">
+                    <input type="number" placeholder="Year" id="year">
                 <p>Gender:</p>
-                <input type="radio" name="gender" value="male">Male<br>
-                <input type="radio" name="gender" value="Female">Female<br>
-                <button type="submit">submit</button>
+                <input type="radio" value="male" id="gender">Male<br>
+                <input type="radio" value="Female" id = "gender">Female<br>
+                <button type="button" onclick="getInputValues();">submit</button>
                 <button type="cancel">cancel</button>
             </form>
         </div>

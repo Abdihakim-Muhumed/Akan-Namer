@@ -1,42 +1,26 @@
-body{
-    margin: 0 auto;
-    
-}
-.info{
-    float: left;
-}
 .header{
     text-align: center;
-   background-color: dodgerblue;
-    background-size: auto;
-    margin: 0 auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(23, 78, 80);
 }
 h1{
-    color: black;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 50px;
+    color: lightcoral;
+    font-size: 40px;
 }
 h2{
-    color: dimgrey;
-    font-style: italic ;
+    color: mediumslateblue;
+    font-size: 20px;
 }
-.disc{
-    float: left;
-    background-color: rgb(104, 98, 117);
+#body-wrap{
+    width: 800;
+    margin: 0 auto ;
 }
-.names{
-    float: center;
-}
-.form{
-    float: right;
-    background-color: darkcyan;
-    color: rgb(44, 36, 36);
-}
-.subform{
-    float: left;
-}
-.submit{
-    border: 6px;
-    padding: 20px;
-    margin: 20px;
+.info{
+    background-color: mediumturquoise;
+    margin: auto;
+    padding-left: 10px brown;
+    padding-top: 10px brown;
+    border-left: mediumvioletred 10px;
+    border-top: mediumvioletred 10px;
+    margin: 20px brown ;
 }

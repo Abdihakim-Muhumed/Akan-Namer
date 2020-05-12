@@ -5,27 +5,63 @@
         <script src="js/scripts.js"></script>
     </head>
     <body>
-        <div class="header">
-            <h1>Akan Naming</h1>
-            <h2>Your name finder</h2>
-        </div>
-        <div class="disc">
-            <p>Dear user if you want to find your Akan Name then you are at the right place. Akan Naming will help you find it. All you need to do is enter your birthday and gender in the form below.Akan Naming will find the day of the week you were born and name you in accordance with the day and your gender. </p>
-        </div>
-        <div class="form">
-            <form action="">
+        <div id="#bodywrap">
+            <div class="info">
+                <div class="header">
+                    <h1>Akan Naming</h1>
+                    <h2>Your name finder</h2>
+                </div>
+                <div class="disc">
+                    <p>
+                        Dear user if you want to find your Akan Name then you are at the right place.<br>
+                        Akan Naming will help you find it. All you need to do is enter your birthday and <br>
+                        gender in the form on the right of the screen.<br>
+                        Akan Naming will find the day of the week<br>
+                        you were born and name you in accordance with the day and your gender.
+                    </p>
+                    <p class="names">Here are Akan Names and their corresponding days:</p>
+                    <p class="malenames">Male:
+                        <ul>
+                            <li>Sunday: Kwasi</li>
+                            <li>Monday: Kwadwo</li>
+                            <li>Tuesday: Kwabena</li>
+                            <li>Wednesday: Kwaku</li>
+                            <li>Thursday:  Yaw</li>
+                            <li>Friday: Kofi</li>
+                            <li>Saturday: Kwame</li>
+                        </ul>
+                    </p>
+                    <p class="femalenames">Female:
+                        <ul>
+                            <li>Sunday: Akosua</li>
+                            <li>Monday: Adwoa</li>
+                            <li>Tuesday: Abenaa</li>
+                            <li>Wednesday: Akua</li>
+                            <li>Thursday:  Yaa</li>
+                            <li>Friday: Afua</li>
+                            <li>Saturday: Ama</li>
+                        </ul>
+                    </p>
+                    
+                        
+                </div>
+            </div>
+            
+            <div class="form">
+                <div class="subform">
                 <p>Date of birth: </p>
-                    <input type="number" placeholder="Day" id="day"> 
-                    <input type="number" placeholder="Month" id="month">
-                    <input type="number" placeholder="Year" id="year">
+                <input type="number" placeholder="Day" id="day"> 
+                <input type="number" placeholder="Month" id="month">
+                <input type="number" placeholder="Year" id="year">
                 <p>Gender:</p>
-                <input type="radio" value="male" id="male" name= "gender">Male<br>
-                <input type="radio" value="female" id = "female" name = "gender">Female<br>
-                <button type="button" onclick="getInputValues();" id="submit">submit</button>
-                <button type="cancel">cancel</button>
-            </form>
+                <input type="radio" value="male"  name= "gender"  >Male<br>
+                <input type="radio" value="female" name="gender">Female<br>
+                <button type="button" onclick="getInputValues();">submit</button>
+                <button type="cancel" class="cancel">cancel</button>
+                </div>
+                
+            </div>
+
         </div>
-        
-        
     </body>
 </html>

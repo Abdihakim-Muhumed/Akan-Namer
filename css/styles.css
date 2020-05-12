@@ -48,3 +48,15 @@ h2{
     color: rgba(40, 53, 21, 0.473);
     font-size: 15px;
 }
+#displayer{
+    text-align: center;
+    font-size: 20px;
+    font-style: oblique;
+    color: rgb(33, 138, 224);
+    background-color: rgb(197, 85, 85);
+}
+#display{
+    font-size: 40px;
+    color: rgb(194, 209, 224);
+    
+}

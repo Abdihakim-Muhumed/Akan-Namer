@@ -34,10 +34,10 @@ function getInputValues(){
         for(var i=0;i<=gender.length;i++){
         	if(gender[i].checked){
             	if (gender[i].value === "male"){
-                    alert("Your Akan Name is : "+ maleName[d] );
+                   document.getElementById("display").innerHTML = maleName[d];
                 }
                 else{
-                   alert( "Your gender is : "+ femaleName[d]);
+                    document.getElementById("display").innerHTML = femaleName[d];
                 }
         }
     }

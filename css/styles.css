@@ -16,11 +16,35 @@ h2{
     margin: 0 auto ;
 }
 .info{
-    background-color: mediumturquoise;
+    background-color: lightcyan;
     margin: auto;
     padding-left: 10px brown;
     padding-top: 10px brown;
     border-left: mediumvioletred 10px;
     border-top: mediumvioletred 10px;
     margin: 20px brown ;
+}
+.malenames{
+    color: rgb(186, 198, 209);
+    background-color: rgb(65, 42, 42);
+}
+#mNames{
+    color: whitesmoke;
+    background-color: rgb(47, 79, 105);
+}
+.femalenames{
+    color: lightcyan ;
+    background-color: rgb(38, 43, 48);
+}
+.form{
+    background-color: rgb(194, 209, 224);
+    color: rgb(65, 32, 32);
+}
+#fill{
+    color: rgb(255, 95, 37);
+    font size: 20px;
+}
+#details{
+    color: rgba(40, 53, 21, 0.473);
+    font-size: 15px;
 }

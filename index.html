@@ -27,7 +27,7 @@
                                         <tr>
                                             <td>
                                                 <p class="malenames">Male:
-                                                    <ul>
+                                                    <ul id="mNames">
                                                         <li>Sunday: Kwasi</li>
                                                         <li>Monday: Kwadwo</li>
                                                         <li>Tuesday: Kwabena</li>
@@ -40,7 +40,7 @@
                                             </td>
                                             <td>
                                                 <p class="femalenames">Female:
-                                                    <ul>
+                                                    <ul id="fNames">
                                                         <li>Sunday: Akosua</li>
                                                         <li>Monday: Adwoa</li>
                                                         <li>Tuesday: Abenaa</li>
@@ -61,15 +61,16 @@
                     <td>
                             <div class="form">
                                 <div class="subform">
-                                <p>Date of birth: </p>
-                                <input type="number" placeholder="Day" id="day"> 
-                                <input type="number" placeholder="Month" id="month">
-                                <input type="number" placeholder="Year" id="year">
-                                <p>Gender:</p>
-                                <input type="radio" value="male"  name= "gender"  >Male<br>
-                                <input type="radio" value="female" name="gender">Female<br>
-                                <button type="button" onclick="getInputValues();">submit</button>
-                                <button type="cancel" class="cancel">cancel</button>
+                                    <p id="fill"> Please fill this form:</p>
+                                    <p id="details">Date of birth: </p>
+                                    <input type="number" placeholder="Day" id="day"> 
+                                    <input type="number" placeholder="Month" id="month">
+                                    <input type="number" placeholder="Year" id="year">
+                                    <p id="details">Gender:</p>
+                                    <input type="radio" value="male"  name= "gender"  >Male<br>
+                                    <input type="radio" value="female" name="gender">Female<br>
+                                    <button type="button" onclick="getInputValues();">submit</button>
+                                    <button type="cancel" class="cancel">cancel</button>
                                 </div>
                             </div>
                     </td>
